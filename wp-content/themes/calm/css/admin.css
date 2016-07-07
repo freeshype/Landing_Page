@@ -1,0 +1,25 @@
+.meta-content label {
+	padding-right: 5px;
+	display: block;
+	padding-bottom: 7px;
+	color: #0074A2;
+}
+.meta-content input {
+	margin-bottom: 10px;
+	display: block;
+}
+.meta-content label input {
+	display: inline-block;
+	position: relative;
+	top: 6px;
+	left: 5px;
+}
+
+.selected-image {
+	max-height: 70px;
+	margin-right: 1px;
+}
+
+#image-upload {
+	display: none;
+}

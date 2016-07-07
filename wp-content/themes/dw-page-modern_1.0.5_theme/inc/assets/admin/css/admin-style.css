@@ -1,0 +1,66 @@
+#order-for-onepage{
+    width: 100%;
+}
+
+#nav-menu-dw-onepage.postbox .howto input, #nav-menu-dw-onepage .howto span{
+    float:none;
+}
+
+.wp_themeSkin [class*="mce_dw_page"] {
+	display: none !important;
+}
+
+.post-type-page .wp_themeSkin [class*="mce_dw_page"] {
+	display: block !important;
+}
+
+.wp_themeSkin .mce_dw_page_projects.mceSplitButton span.mceAction {
+	background: url(../../img/posttype-project.png);
+}
+
+.wp_themeSkin .mce_dw_page_testimonial.mceSplitButton span.mceAction {
+	background: url(../../img/posttype-testimonial.png);
+}
+
+.wp_themeSkin .mce_dw_page_client.mceSplitButton span.mceAction {
+	background: url(../../img/posttype-client.png);
+}
+
+.wp_themeSkin .mce_dw_page_team.mceSplitButton span.mceAction {
+	background: url(../../img/team.png);
+}
+
+.dw-page-shortcode-button {
+	padding: 0 10px 10px !important;
+	min-width: 180px;
+}
+
+.dw-page-shortcode-button label,
+.dw-page-shortcode-button select,
+.dw-page-shortcode-button input[type="text"] {
+	display: block;
+	width: 100%;
+}
+
+.dw-page-shortcode-button label {
+	padding-top: 10px;
+}
+
+.dw-page-shortcode-button select {
+	min-width: 40%;
+}
+
+.dw-page-shortcode-button select,
+.dw-page-shortcode-button input {
+	padding: 2px;
+	height: 2em;
+}
+
+.dw-page-shortcode-button div {
+	text-align: right;
+}
+
+.dw-page-shortcode-button .button {
+	margin-top: 10px;
+}
+

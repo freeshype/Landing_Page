@@ -1,0 +1,231 @@
+/*!
+Theme Name: Balance
+Theme URI: http://neilorangepeel.com
+Description: A responsive WordPress theme.
+Author: Tink Tank
+Author URI: http://tinktank.in
+Version: 1
+*/
+
+$transBlack:        rgba(0,0,0,0.1);
+$transWhite:        rgba(255,255,255,0.1);
+$sitecolor:         #FA5D5A;
+$bodycolor:         #222;
+
+$padding:           12%;
+
+@import 'bp';
+@import 'reset';
+@import 'toolbox';
+@import 'typography';
+
+
+//---------------------------------- STRUCTURE
+body {
+  border-top: 10px solid $sitecolor;
+  @include bp (S) {
+    font-size: 18px;
+  }
+}
+.wrapper {
+  max-width: 48em;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+[class*='page-wrap-'] {
+  padding-bottom: 15%;
+}
+
+//---------------------------------- HEADER + NAV
+.header {
+  padding: $padding 0;
+
+  a {
+    color: $bodycolor;
+    &:hover, &:focus {
+      color: $sitecolor;
+      text-decoration: none;
+    }
+  }
+}
+.nav {
+  float: right;
+
+  ul {
+    padding:0;
+  }
+  li {
+    display: inline-block;
+    margin: 1em 0 0 1em;
+    @include bp (S) {
+      margin: 1em 0.3em 0;
+    }
+  }
+}
+h1.logo {
+  margin:0;
+}
+.logo {
+  float: left;
+  &:hover img, &:focus img {
+    opacity: 0.8;
+  }
+}
+@include bp (S) {
+  .nav, .logo {
+    float: none;
+    text-align: center;
+  }
+  .logo img {
+    margin: 0 auto;
+  }
+}
+
+//---------------------------------- GRID
+.grid {
+
+  .tile {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    display: block;
+    border: 2px solid white;
+    &:hover h2, &:focus h2 {
+      opacity: 1;
+    }
+    @include bp (S) {
+      width: 50%;
+    }
+    h2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      padding: 5% 0 0 5%;
+      font-size: 1.4em;
+      color: white;
+      background: $sitecolor;
+      opacity: 0;
+      @include transition;
+    }
+  }
+}
+
+//---------------------------------- BLOG
+.blogroll {
+  max-width: 30em;
+
+  .blog-post {
+    margin-bottom: $padding;
+  }
+}
+
+//---------------------------------- SINGLE POST
+.splash-img {
+  margin-bottom: 10%;
+}
+.single-entry {
+  max-width: 30em;
+  margin: 0 auto;
+
+  .page-title {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .post-title {
+    text-align: center;
+    margin:0;
+  }
+  .date {
+    display: block;
+    margin-bottom: 10%;
+    text-align: center;
+    font-style: italic;
+  }
+}
+
+//----------------------------------- COMMENTS
+#respond {
+  float: left;
+  padding-top: 1.6em;
+}
+.commentlist {
+  padding: 0;
+
+  li {
+    padding: 1em 0;
+    list-style: none;
+    border-top: 1px solid $transBlack;
+    border-bottom: 1px solid $transBlack;
+  }
+  .avatar {
+    float: left;
+    width: 15%;
+    margin-right: 1em;
+  }
+  .comment-meta {
+    font-size: 80%;
+  }
+}
+textarea, input {
+  width:100%;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  background: transparent;
+  border: 1px solid $transBlack;
+  font-size: 1em;
+  font-family: 'Alegreya', Georgia, serif;
+}
+@include bp (S) {
+  .commentform {
+    label {
+      font-size: 1em;
+    }
+    input {
+      width: 50%;
+    }
+  }
+}
+
+//----------------------------------- CONTACT FORM 7
+.wpcf7-form {
+  p {
+    margin: 0;
+  }
+}
+
+//----------------------------------- SOCIAL ICONS
+.social-icons {
+  width: 8em;
+  margin: 0 auto;
+  font-size: 1.8em;
+  a {
+    color: $transBlack;
+    display: inline-block;
+    padding: 1px;
+    margin-bottom: 0;
+
+    &:hover, &:focus {
+      color: $sitecolor;
+      text-decoration: none;
+    }
+  }
+  span {
+    position: absolute;
+    top:-9999px;
+    left:-9999px;
+  }
+}
+
+//---------------------------------- FOOTER
+.footer {
+  text-align: center;
+  padding: $padding 0;
+  border-top: 1px solid $transBlack;
+
+  span {
+    font-family:'Menlo';
+    font-size: 120%;
+  }
+}

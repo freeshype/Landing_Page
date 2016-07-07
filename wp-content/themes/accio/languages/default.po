@@ -1,0 +1,1950 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Accio Theme 1.0\n"
+"POT-Creation-Date: 2013-11-13 01:00+0530\n"
+"PO-Revision-Date: 2013-11-13 01:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;_n;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:19
+msgid "Oops, you found something that doesn't exist"
+msgstr ""
+
+#: archive.php:31
+msgid "All posts in:"
+msgstr ""
+
+#: archive.php:33
+msgid "All posts tagged:"
+msgstr ""
+
+#: archive.php:35
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:37
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:37
+msgid "F Y"
+msgstr ""
+
+#: archive.php:39
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:39
+msgid "Y"
+msgstr ""
+
+#: archive.php:41
+msgid "All posts by:"
+msgstr ""
+
+#: archive.php:43
+msgid "Blog Archives:"
+msgstr ""
+
+#: comments.php:22
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:33
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:33
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:33 content-meta.php:21
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:53
+msgid "Trackbacks for this post"
+msgstr ""
+
+#: comments.php:64
+msgid "&larr; Previous"
+msgstr ""
+
+#: comments.php:65
+msgid "Next &rarr;"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are now closed for this article."
+msgstr ""
+
+#: comments.php:84
+msgid "No Comments so far."
+msgstr ""
+
+#: comments.php:89
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:104
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:105
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: comments.php:108
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:109
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:110
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:111
+msgid "Post Comment"
+msgstr ""
+
+#: content-aside.php:19 content-audio.php:62 content-chat.php:48
+#: content-gallery.php:90 content-image.php:71 content-link.php:65
+#: content-quote.php:68 content-video.php:66 content.php:39
+msgid "Read More"
+msgstr ""
+
+#: content-aside.php:20 content-audio.php:63 content-chat.php:49
+#: content-gallery.php:91 content-image.php:72 content-link.php:66
+#: content-quote.php:69 content-video.php:67 content.php:40
+msgid "Pages:"
+msgstr ""
+
+#: content-audio.php:52 content-chat.php:22 content-chat.php:37
+#: content-gallery.php:80 content-image.php:27 content-image.php:31
+#: content-image.php:39 content-image.php:61 content-link.php:55
+#: content-quote.php:58 content-video.php:56 content.php:12 content.php:29
+#: functions/widget-blog.php:119
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: content-entry-footer.php:18
+msgid "Tagged: "
+msgstr ""
+
+#: content-entry-footer.php:28
+msgid "Share"
+msgstr ""
+
+#: content-meta.php:21
+msgid "0"
+msgstr ""
+
+#: content-meta.php:21
+msgid "1"
+msgstr ""
+
+#: content-meta.php:21
+msgid "Off"
+msgstr ""
+
+#: content-meta.php:23
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: content-meta.php:24
+msgid "Edit Post"
+msgstr ""
+
+#: content-none.php:18
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: content-none.php:21
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: functions.php:37
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:93
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:94
+msgid "Appears on posts in the sidebar."
+msgstr ""
+
+#: functions.php:101
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:102
+msgid "Appears on pages in the sidebar."
+msgstr ""
+
+#: functions.php:109
+msgid "Footer One"
+msgstr ""
+
+#: functions.php:110
+msgid "Appears in the first column in the footer section of the site."
+msgstr ""
+
+#: functions.php:117
+msgid "Footer Two"
+msgstr ""
+
+#: functions.php:118
+msgid "Appears in the second column in the footer section of the site."
+msgstr ""
+
+#: functions.php:125
+msgid "Footer Three"
+msgstr ""
+
+#: functions.php:126
+msgid "Appears in the third column in the footer section of the site."
+msgstr ""
+
+#: functions.php:277
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: functions.php:277
+msgid "Author"
+msgstr ""
+
+#: functions.php:280
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:280
+msgid "&middot; Edit"
+msgstr ""
+
+#: functions.php:285
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: search.php:21
+msgid "Search results for:"
+msgstr ""
+
+#: search.php:65
+msgid "No results found for:"
+msgstr ""
+
+#: searchform.php:14
+msgid "Search..."
+msgstr ""
+
+#: template-archives.php:64
+msgid "Last 30 Posts"
+msgstr ""
+
+#: template-archives.php:87
+msgid "Archives by Month"
+msgstr ""
+
+#: template-archives.php:96
+msgid "Tags"
+msgstr ""
+
+#: template-archives.php:123
+msgid "Archives By Year"
+msgstr ""
+
+#: template-archives.php:132
+msgid "Archives by Subject"
+msgstr ""
+
+#: template-archives.php:141
+msgid "Authors"
+msgstr ""
+
+#: template-contact.php:17
+msgid "Please enter your name."
+msgstr ""
+
+#: template-contact.php:18
+msgid "Please enter your email address."
+msgstr ""
+
+#: template-contact.php:19
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: template-contact.php:20
+msgid "Please enter a message."
+msgstr ""
+
+#: template-contact.php:111
+msgid ""
+"Thanks, your email was sent successfully. We'll get back to you as soon as "
+"possible."
+msgstr ""
+
+#: template-contact.php:118
+msgid "Sorry, an error occured."
+msgstr ""
+
+#: template-contact.php:127
+msgid "Name:"
+msgstr ""
+
+#: template-contact.php:135
+msgid "Email:"
+msgstr ""
+
+#: template-contact.php:146
+msgid "Message:"
+msgstr ""
+
+#: template-contact.php:155
+msgid "Send Message"
+msgstr ""
+
+#: admin/theme-settings.php:713
+msgid "General settings"
+msgstr ""
+
+#: admin/theme-settings.php:719
+msgid ""
+"Control and configure the general setup of your theme. Setup your icons, "
+"email address and insert your analytics tracking code."
+msgstr ""
+
+#: admin/theme-settings.php:722
+msgid "Enable Plain Text Logo"
+msgstr ""
+
+#: admin/theme-settings.php:723
+msgid ""
+"Check this to enable plain text logo rather than an image. It will use the "
+"site title."
+msgstr ""
+
+#: admin/theme-settings.php:729
+msgid "Custom favicon upload"
+msgstr ""
+
+#: admin/theme-settings.php:730
+msgid "Upload a custom favicon for your site."
+msgstr ""
+
+#: admin/theme-settings.php:735
+msgid "Apple iPhone Icon Upload"
+msgstr ""
+
+#: admin/theme-settings.php:736
+msgid "Icon for Apple iPhone (57px x 57px)."
+msgstr ""
+
+#: admin/theme-settings.php:741
+msgid "Apple iPhone Retina Icon Upload"
+msgstr ""
+
+#: admin/theme-settings.php:742
+msgid "Icon for Apple iPhone Retina Version (114px x 114px)"
+msgstr ""
+
+#: admin/theme-settings.php:747
+msgid "Apple iPad Icon Upload"
+msgstr ""
+
+#: admin/theme-settings.php:748
+msgid "Icon for Apple iPhone (72px x 72px)"
+msgstr ""
+
+#: admin/theme-settings.php:753
+msgid "Apple iPad Retina Icon Upload"
+msgstr ""
+
+#: admin/theme-settings.php:754
+msgid "Icon for Apple iPad Retina Version (144px x 144px)"
+msgstr ""
+
+#: admin/theme-settings.php:759
+msgid "Email address contact form"
+msgstr ""
+
+#: admin/theme-settings.php:760
+msgid ""
+"Enter the email address where you'd like to receive emails from the contact "
+"form, or leave blank to use admin email. "
+msgstr ""
+
+#: admin/theme-settings.php:765
+msgid "Tracking code"
+msgstr ""
+
+#: admin/theme-settings.php:766
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. It will be "
+"inserted before the closing body tag of your theme."
+msgstr ""
+
+#: admin/theme-settings.php:772
+msgid "Styling options"
+msgstr ""
+
+#: admin/theme-settings.php:778
+msgid ""
+"Configure the visual appearance of you theme. choosing your overall layout "
+"and inserting any custom CSS necessary."
+msgstr ""
+
+#: admin/theme-settings.php:781
+msgid "Blog Layout"
+msgstr ""
+
+#: admin/theme-settings.php:782
+msgid "Select blog content and sidebar alignment."
+msgstr ""
+
+#: admin/theme-settings.php:793
+msgid "Page Layout"
+msgstr ""
+
+#: admin/theme-settings.php:794
+msgid "Select page content and sidebar alignment."
+msgstr ""
+
+#: admin/theme-settings.php:804
+msgid "Pagination Style"
+msgstr ""
+
+#: admin/theme-settings.php:805
+msgid "Select pagination style."
+msgstr ""
+
+#: admin/theme-settings.php:817
+msgid "Enable Animation"
+msgstr ""
+
+#: admin/theme-settings.php:818
+msgid "Check this to enable animations."
+msgstr ""
+
+#: admin/theme-settings.php:824
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/theme-settings.php:825
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: admin/theme-settings.php:832
+msgid "Blog Options"
+msgstr ""
+
+#: admin/theme-settings.php:838
+msgid ""
+"Here you can configure how you would like to display your posts and pages."
+msgstr ""
+
+#: admin/theme-settings.php:841
+msgid "Respond Description"
+msgstr ""
+
+#: admin/theme-settings.php:842
+msgid "This is a short description that is displayed near the comment form."
+msgstr ""
+
+#: admin/theme-settings.php:847
+msgid "Author Box"
+msgstr ""
+
+#: admin/theme-settings.php:848
+msgid "Check this show author box on single posts."
+msgstr ""
+
+#: admin/theme-settings.php:853
+msgid "Enable Social Sharing"
+msgstr ""
+
+#: admin/theme-settings.php:854
+msgid "Check this to enable social sharing."
+msgstr ""
+
+#: admin/theme-settings.php:859 tinymce/config.php:390
+msgid "Facebook"
+msgstr ""
+
+#: admin/theme-settings.php:860
+msgid ""
+"Place the link you want and facebook icon will appear. To remove it, just "
+"leave it blank."
+msgstr ""
+
+#: admin/theme-settings.php:865 tinymce/config.php:396
+msgid "Twitter"
+msgstr ""
+
+#: admin/theme-settings.php:866
+msgid ""
+"Place the link you want and twitter icon will appear. To remove it, just "
+"leave it blank."
+msgstr ""
+
+#: admin/theme-settings.php:871 tinymce/config.php:408
+msgid "Pinterest"
+msgstr ""
+
+#: admin/theme-settings.php:872
+msgid ""
+"Place the link you want and pinterest icon will appear. To remove it, just "
+"leave it blank."
+msgstr ""
+
+#: admin/theme-settings.php:877 tinymce/config.php:426
+msgid "Google Plus"
+msgstr ""
+
+#: admin/theme-settings.php:878
+msgid ""
+"Place the link you want and google plus icon will appear. To remove it, just "
+"leave it blank."
+msgstr ""
+
+#: admin/theme-settings.php:883
+msgid "LinkeIn"
+msgstr ""
+
+#: admin/theme-settings.php:884
+msgid ""
+"Place the link you want and linkedin icon will appear. To remove it, just "
+"leave it blank."
+msgstr ""
+
+#: admin/theme-settings.php:889 tinymce/config.php:456
+msgid "Tumblr"
+msgstr ""
+
+#: admin/theme-settings.php:890
+msgid ""
+"Place the link you want and tumblr icon will appear. To remove it, just "
+"leave it blank."
+msgstr ""
+
+#: admin/theme-settings.php:895 inc/meta-box/demo/demo.php:239
+msgid "Email"
+msgstr ""
+
+#: admin/theme-settings.php:896
+msgid ""
+"Place the link you want and email icon will appear. To remove it, just leave "
+"it blank."
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:18
+msgid "Logo"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:19
+msgid "Allows you to upload a custom logo."
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:29
+msgid "Upload your Logo"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:37
+msgid "Body Text Color"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:38
+msgid "Allows you to change the text color of this theme."
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:48
+msgid "Choose Your Color"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:56
+msgid "Accent Color"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:57
+msgid "Allows you to change the accent color of this theme."
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:71
+msgid "Primary Color"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:87
+msgid "Secondary Color"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:95
+msgid "Media Player Accent Color"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:96
+msgid "Allows you to change media player color of this theme."
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:106
+msgid "Player Accent Color"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:116
+msgid "Border Options"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:117
+msgid "Allows you to change the border settings of this theme."
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:131
+msgid "Enable Border"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:153
+msgid "Border Color"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:169
+msgid "Border Style"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:183
+msgid "Content Background"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:184
+msgid "Allows you to change background color of content area."
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:194 inc/accio-metaboxes.php:91
+#: inc/accio-metaboxes.php:137 inc/accio-metaboxes.php:292
+msgid "Background Color"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:202
+msgid "Footer Options"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:203
+msgid "Allows you to change the footer settings."
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:211
+msgid "&copy; 2013 Accio. Powered by WordPress"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:216
+msgid "Footer Text"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:225
+msgid "Typography Options"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:226
+msgid "Allows you to set the typography of this theme."
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:240
+#: admin/customizer/accio-customizer.php:283
+msgid "Google Fonts"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:258
+#: admin/customizer/accio-customizer.php:301
+msgid "System Fonts (will replace google fonts)"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:268
+msgid "Heading Fonts"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:269
+msgid "Allows you to set the heading of this theme."
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:319
+msgid "Font Size"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:348
+msgid "Line Height"
+msgstr ""
+
+#: admin/customizer/accio-customizer.php:365
+msgid "Font Weight"
+msgstr ""
+
+#: functions/widget-ad-125.php:13
+msgid "Displays a list of four 125x125 ad blocks"
+msgstr ""
+
+#: functions/widget-ad-125.php:19 functions/widget-ad-140.php:46
+msgid "Ads"
+msgstr ""
+
+#: functions/widget-ad-125.php:35 functions/widget-ad-140.php:65
+#: functions/widget-ad-260.php:29 functions/widget-blog.php:174
+#: functions/widget-flickr.php:121 functions/widget-social.php:92
+#: functions/widget-video.php:119
+msgid "Title:"
+msgstr ""
+
+#: functions/widget-ad-125.php:41 functions/widget-ad-140.php:71
+msgid "Ad 1 image URL:"
+msgstr ""
+
+#: functions/widget-ad-125.php:47 functions/widget-ad-140.php:77
+msgid "Ad 1 link:"
+msgstr ""
+
+#: functions/widget-ad-125.php:53 functions/widget-ad-140.php:83
+msgid "Ad 2 image URL:"
+msgstr ""
+
+#: functions/widget-ad-125.php:59 functions/widget-ad-140.php:89
+msgid "Ad 2 link:"
+msgstr ""
+
+#: functions/widget-ad-125.php:65 functions/widget-ad-140.php:95
+msgid "Ad 3 image URL:"
+msgstr ""
+
+#: functions/widget-ad-125.php:71 functions/widget-ad-140.php:101
+msgid "Ad 3 link:"
+msgstr ""
+
+#: functions/widget-ad-125.php:77 functions/widget-ad-140.php:107
+msgid "Ad 4 image URL:"
+msgstr ""
+
+#: functions/widget-ad-125.php:83 functions/widget-ad-140.php:113
+msgid "Ad 4 link:"
+msgstr ""
+
+#: functions/widget-ad-140.php:27
+msgid "Displays a list of four 140x140 ad blocks."
+msgstr ""
+
+#: functions/widget-ad-140.php:36
+msgid "Accio: Ad Widget"
+msgstr ""
+
+#: functions/widget-ad-140.php:61
+msgid "Enter the ad links and url of the images here."
+msgstr ""
+
+#: functions/widget-ad-260.php:13
+msgid "Displays a single 260x120 ad block"
+msgstr ""
+
+#: functions/widget-ad-260.php:19
+msgid "Ad"
+msgstr ""
+
+#: functions/widget-ad-260.php:35
+msgid "Ad image URL:"
+msgstr ""
+
+#: functions/widget-ad-260.php:41
+msgid "Ad link:"
+msgstr ""
+
+#: functions/widget-blog.php:27
+msgid "A widget that displays your latest blog posts."
+msgstr ""
+
+#: functions/widget-blog.php:38
+msgid "Accio: Recent Posts"
+msgstr ""
+
+#: functions/widget-blog.php:180
+msgid "Posts Number:"
+msgstr ""
+
+#: functions/widget-facebook.php:121
+msgid ""
+"Enter your facebook page url here, choose your color scheme to show up the "
+"like box."
+msgstr ""
+
+#: functions/widget-flickr.php:27
+msgid "A widget that displays your Flickr photos."
+msgstr ""
+
+#: functions/widget-flickr.php:38
+msgid "Accio: Flickr Photostream"
+msgstr ""
+
+#: functions/widget-flickr.php:117
+msgid "Enter your flickr ID, use idgettr to get your id."
+msgstr ""
+
+#: functions/widget-flickr.php:127
+msgid "Flickr ID:"
+msgstr ""
+
+#: functions/widget-flickr.php:133
+msgid "Number of Photos:"
+msgstr ""
+
+#: functions/widget-flickr.php:142
+msgid "Type (user or group):"
+msgstr ""
+
+#: functions/widget-flickr.php:151
+msgid "Display (random or latest):"
+msgstr ""
+
+#: functions/widget-social.php:27
+msgid "Displays a list of social icons."
+msgstr ""
+
+#: functions/widget-social.php:36
+msgid "Accio: Social Links"
+msgstr ""
+
+#: functions/widget-social.php:46
+msgid "Connect with us"
+msgstr ""
+
+#: functions/widget-social.php:83
+msgid "Connect with us on our social networks."
+msgstr ""
+
+#: functions/widget-social.php:88
+msgid "Enter your social media urls."
+msgstr ""
+
+#: functions/widget-social.php:98
+msgid "Description:"
+msgstr ""
+
+#: functions/widget-video.php:28
+msgid "A widget that displays your YouTube or Vimeo Video."
+msgstr ""
+
+#: functions/widget-video.php:39
+msgid "Accio: Embedded Video"
+msgstr ""
+
+#: functions/widget-video.php:125
+msgid "Embed Code:"
+msgstr ""
+
+#: functions/widget-video.php:131
+msgid "Short Description:"
+msgstr ""
+
+#: inc/accio-metaboxes.php:16
+msgid "Page Settings"
+msgstr ""
+
+#: inc/accio-metaboxes.php:20
+msgid "Page Heading"
+msgstr ""
+
+#: inc/accio-metaboxes.php:21
+msgid "Enter a heading for this page."
+msgstr ""
+
+#: inc/accio-metaboxes.php:36
+msgid "Gallery Settings"
+msgstr ""
+
+#: inc/accio-metaboxes.php:40
+msgid "Gallery Style"
+msgstr ""
+
+#: inc/accio-metaboxes.php:41
+msgid "Select the gallery style."
+msgstr ""
+
+#: inc/accio-metaboxes.php:45 inc/meta-box/demo/demo.php:152
+msgid "Slider"
+msgstr ""
+
+#: inc/accio-metaboxes.php:46
+msgid "Grid"
+msgstr ""
+
+#: inc/accio-metaboxes.php:51 inc/meta-box/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: inc/accio-metaboxes.php:52
+msgid "Select the images from the media library or upload your new ones."
+msgstr ""
+
+#: inc/accio-metaboxes.php:57 inc/accio-metaboxes.php:110
+#: inc/accio-metaboxes.php:157 inc/accio-metaboxes.php:196
+#: inc/accio-metaboxes.php:259 inc/accio-metaboxes.php:351
+msgid "Show Meta Information"
+msgstr ""
+
+#: inc/accio-metaboxes.php:58 inc/accio-metaboxes.php:111
+#: inc/accio-metaboxes.php:158 inc/accio-metaboxes.php:197
+#: inc/accio-metaboxes.php:260 inc/accio-metaboxes.php:352
+msgid "Check this to show metadata."
+msgstr ""
+
+#: inc/accio-metaboxes.php:62 inc/accio-metaboxes.php:115
+#: inc/accio-metaboxes.php:162 inc/accio-metaboxes.php:183
+#: inc/accio-metaboxes.php:201 inc/accio-metaboxes.php:264
+#: inc/accio-metaboxes.php:356
+msgid "Yes"
+msgstr ""
+
+#: inc/accio-metaboxes.php:63 inc/accio-metaboxes.php:116
+#: inc/accio-metaboxes.php:163 inc/accio-metaboxes.php:184
+#: inc/accio-metaboxes.php:202 inc/accio-metaboxes.php:265
+#: inc/accio-metaboxes.php:357
+msgid "No"
+msgstr ""
+
+#: inc/accio-metaboxes.php:74
+msgid "Quote Settings"
+msgstr ""
+
+#: inc/accio-metaboxes.php:78
+msgid "The Quote"
+msgstr ""
+
+#: inc/accio-metaboxes.php:79
+msgid "Write your quote in this field."
+msgstr ""
+
+#: inc/accio-metaboxes.php:85
+msgid "The Author"
+msgstr ""
+
+#: inc/accio-metaboxes.php:86
+msgid "Enter the name of the author of this quote."
+msgstr ""
+
+#: inc/accio-metaboxes.php:92
+msgid "Choose the background color for this quote."
+msgstr ""
+
+#: inc/accio-metaboxes.php:97 inc/accio-metaboxes.php:144
+#: inc/accio-metaboxes.php:299
+msgid "Background Opacity"
+msgstr ""
+
+#: inc/accio-metaboxes.php:98 inc/accio-metaboxes.php:145
+#: inc/accio-metaboxes.php:300
+msgid "Choose the opacity of the background color."
+msgstr ""
+
+#: inc/accio-metaboxes.php:104 inc/accio-metaboxes.php:151
+#: inc/accio-metaboxes.php:234 inc/accio-metaboxes.php:253
+#: inc/accio-metaboxes.php:345
+msgid "Divider"
+msgstr ""
+
+#: inc/accio-metaboxes.php:105 inc/accio-metaboxes.php:152
+msgid "Divider."
+msgstr ""
+
+#: inc/accio-metaboxes.php:127
+msgid "Link Settings"
+msgstr ""
+
+#: inc/accio-metaboxes.php:131
+msgid "The URL"
+msgstr ""
+
+#: inc/accio-metaboxes.php:132
+msgid "Insert the URL you wish to link to."
+msgstr ""
+
+#: inc/accio-metaboxes.php:138
+msgid "Choose the background color for this link."
+msgstr ""
+
+#: inc/accio-metaboxes.php:174
+msgid "Image Settings"
+msgstr ""
+
+#: inc/accio-metaboxes.php:178
+msgid "Enable Lightbox"
+msgstr ""
+
+#: inc/accio-metaboxes.php:179
+msgid "Check this to enable the lightbox."
+msgstr ""
+
+#: inc/accio-metaboxes.php:190
+msgid "Enter URL"
+msgstr ""
+
+#: inc/accio-metaboxes.php:191
+msgid "Insert the url for the image."
+msgstr ""
+
+#: inc/accio-metaboxes.php:213
+msgid "Audio Settings"
+msgstr ""
+
+#: inc/accio-metaboxes.php:218
+msgid ""
+"These settings enable you to embed audio in your posts. Note that for audio, "
+"you must supply both MP3 and OGG files to satisfy all browsers. For poster "
+"you can select a featured image."
+msgstr ""
+
+#: inc/accio-metaboxes.php:222
+msgid "MP3 File URL"
+msgstr ""
+
+#: inc/accio-metaboxes.php:223
+msgid "The URL to the .mp3 audio file."
+msgstr ""
+
+#: inc/accio-metaboxes.php:228
+msgid "OGA File URL"
+msgstr ""
+
+#: inc/accio-metaboxes.php:229
+msgid "The URL to the .oga, .ogg audio file."
+msgstr ""
+
+#: inc/accio-metaboxes.php:235 inc/accio-metaboxes.php:254
+#: inc/accio-metaboxes.php:346
+msgid "divider."
+msgstr ""
+
+#: inc/accio-metaboxes.php:240
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/accio-metaboxes.php:241
+msgid "Enter the url of the soundcloud audio."
+msgstr ""
+
+#: inc/accio-metaboxes.php:246 tinymce/config.php:146
+msgid "Color"
+msgstr ""
+
+#: inc/accio-metaboxes.php:247
+msgid "Choose the color."
+msgstr ""
+
+#: inc/accio-metaboxes.php:276
+msgid "Status Settings"
+msgstr ""
+
+#: inc/accio-metaboxes.php:280
+msgid "Style"
+msgstr ""
+
+#: inc/accio-metaboxes.php:281
+msgid "Select status style."
+msgstr ""
+
+#: inc/accio-metaboxes.php:285
+msgid "Normal"
+msgstr ""
+
+#: inc/accio-metaboxes.php:286
+msgid "Background"
+msgstr ""
+
+#: inc/accio-metaboxes.php:293
+msgid "Choose the background color for this status."
+msgstr ""
+
+#: inc/accio-metaboxes.php:311
+msgid "Video Settings"
+msgstr ""
+
+#: inc/accio-metaboxes.php:316
+msgid ""
+"These settings enable you to embed videos into your posts. Note that for "
+"video, you must supply an M4V file to satisfy both HTML5 and Flash "
+"solutions. The optional OGV format is used to increase x-browser support for "
+"HTML5 browsers such as Firefox and Opera. For the poster, you can select a "
+"featured image."
+msgstr ""
+
+#: inc/accio-metaboxes.php:320
+msgid "M4V File URL"
+msgstr ""
+
+#: inc/accio-metaboxes.php:321
+msgid "The URL to the .m4v video file."
+msgstr ""
+
+#: inc/accio-metaboxes.php:326
+msgid "OGV File URL"
+msgstr ""
+
+#: inc/accio-metaboxes.php:327 tinymce/config.php:187
+msgid "The URL to the .ogv video file."
+msgstr ""
+
+#: inc/accio-metaboxes.php:332
+msgid "WEBM File URL"
+msgstr ""
+
+#: inc/accio-metaboxes.php:333 tinymce/config.php:193
+msgid "The URL to the .webm video file."
+msgstr ""
+
+#: inc/accio-metaboxes.php:338
+msgid "Embeded Code"
+msgstr ""
+
+#: inc/accio-metaboxes.php:339
+msgid "Select the preview image for this video."
+msgstr ""
+
+#: inc/meta-box/demo/all-custom-post-types.php:20
+msgid "Personal Information"
+msgstr ""
+
+#: inc/meta-box/demo/all-custom-post-types.php:25
+msgid "Full name"
+msgstr ""
+
+#: inc/meta-box/demo/better-include.php:16
+#: inc/meta-box/demo/include-by-ID-or-page-template.php:8
+msgid "Meta Box Title"
+msgstr ""
+
+#: inc/meta-box/demo/better-include.php:19
+#: inc/meta-box/demo/include-by-ID-or-page-template.php:14
+msgid "Your images"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:11
+msgid "Date Time Picker With JS Options"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:15
+msgid "Date"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:21
+#: inc/meta-box/demo/demo.php:184
+msgid "(yyyy-mm-dd)"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:23
+msgid "Select Date"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:24
+#: inc/meta-box/demo/demo.php:185
+msgid "yy-mm-dd"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:30
+msgid "Datetime"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:41
+msgid "Time"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:34
+msgid "Standard Fields"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:53 tinymce/config.php:684
+msgid "Text"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:57
+msgid "Text description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:60
+msgid "Default text value"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:66
+msgid "Checkbox"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:74
+msgid "Radio"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:80 inc/meta-box/demo/demo.php:91
+#: inc/meta-box/demo/demo.php:233 inc/meta-box/demo/demo.php:278
+msgid "Label1"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:81 inc/meta-box/demo/demo.php:92
+#: inc/meta-box/demo/demo.php:234 inc/meta-box/demo/demo.php:279
+msgid "Label2"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:86 inc/meta-box/demo/demo.php:273
+msgid "Select"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:97 inc/meta-box/demo/demo.php:284
+msgid "Select an Item"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:104
+msgid "Hidden value"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:108
+msgid "Password"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:114
+msgid "Textarea"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:115
+msgid "Textarea description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:132
+msgid "Password is required"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:133
+msgid "Password must be at least 7 characters"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:141
+msgid "Advanced Fields"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:147
+msgid "Heading"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:157
+msgid "$"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:158
+msgid " USD"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:169
+msgid "Number"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:178
+msgid "Date picker"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:193
+msgid "Datetime picker"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:207
+msgid "Time picker"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:222
+msgid "Color picker"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:228
+msgid "Checkbox list"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:241
+msgid "Email description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:247
+msgid "Range"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:249
+msgid "Range description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:258 tinymce/config.php:120
+msgid "URL"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:260
+msgid "URL description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:266
+msgid "oEmbed"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:268
+msgid "oEmbed description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:288
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:302
+msgid "Posts (Pages)"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:318
+msgid "WYSIWYG / Rich Text Editor"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:323
+msgid "WYSIWYG default value"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:339 inc/meta-box/demo/force-delete.php:15
+msgid "File Upload"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:345
+msgid "File Advanced Upload"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:353 inc/meta-box/demo/force-delete.php:22
+msgid "Image Upload"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:359 inc/meta-box/demo/force-delete.php:28
+msgid "Thickbox Image Upload"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:365 inc/meta-box/demo/force-delete.php:35
+msgid "Plupload Image Upload"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:372
+msgid "Image Advanced Upload"
+msgstr ""
+
+#: inc/meta-box/demo/force-delete.php:11
+msgid "Test Meta Box"
+msgstr ""
+
+#: inc/meta-box/demo/map.php:9
+msgid "Google Map"
+msgstr ""
+
+#: inc/meta-box/demo/map.php:13
+msgid "Address"
+msgstr ""
+
+#: inc/meta-box/demo/map.php:15
+msgid "Hanoi, Vietnam"
+msgstr ""
+
+#: inc/meta-box/demo/map.php:19
+msgid "Location"
+msgstr ""
+
+#: inc/meta-box/inc/classes/meta-box.php:252
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: inc/meta-box/inc/classes/meta-box.php:423
+msgid "+"
+msgstr ""
+
+#: inc/meta-box/inc/classes/meta-box.php:443
+msgid "&#8211;"
+msgstr ""
+
+#: inc/meta-box/inc/fields/button.php:36
+msgid "Click me"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-advanced.php:23
+#: inc/meta-box/inc/fields/plupload-image.php:106
+msgid "Select Files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-advanced.php:66
+msgid "Select or Upload Files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-advanced.php:102
+#: inc/meta-box/inc/fields/file.php:138
+#: inc/meta-box/inc/fields/image-advanced.php:107
+#: inc/meta-box/inc/fields/image.php:144
+msgid "Delete"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-advanced.php:103
+#: inc/meta-box/inc/fields/file.php:139
+#: inc/meta-box/inc/fields/image-advanced.php:108
+#: inc/meta-box/inc/fields/image.php:145
+msgid "Edit"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:84
+msgid "Upload Files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:85
+msgid "+ Add new file"
+msgstr ""
+
+#: inc/meta-box/inc/fields/image-advanced.php:71
+msgid "Select or Upload Images"
+msgstr ""
+
+#: inc/meta-box/inc/fields/image.php:64
+msgid "Order saved"
+msgstr ""
+
+#: inc/meta-box/inc/fields/image.php:78
+#: inc/meta-box/inc/fields/thickbox-image.php:35
+msgid "Upload Images"
+msgstr ""
+
+#: inc/meta-box/inc/fields/image.php:79
+msgid "+ Add new image"
+msgstr ""
+
+#: inc/meta-box/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: inc/meta-box/inc/fields/plupload-image.php:104
+msgid "Drop images here"
+msgstr ""
+
+#: inc/meta-box/inc/fields/plupload-image.php:105
+msgid "or"
+msgstr ""
+
+#: inc/meta-box/inc/fields/plupload-image.php:181
+msgid "Allowed Image Files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/post.php:54
+msgid "Post"
+msgstr ""
+
+#: inc/meta-box/inc/fields/post.php:68 inc/meta-box/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: tinymce/config.php:8
+msgid "Insert Column Shortcode"
+msgstr ""
+
+#: tinymce/config.php:14
+msgid "Column"
+msgstr ""
+
+#: tinymce/config.php:15
+msgid "Enter the column settings."
+msgstr ""
+
+#: tinymce/config.php:34
+msgid "Offset"
+msgstr ""
+
+#: tinymce/config.php:35
+msgid "Enter the offset settings."
+msgstr ""
+
+#: tinymce/config.php:55
+msgid "+ Add New Column"
+msgstr ""
+
+#: tinymce/config.php:66 tinymce/config.php:534
+msgid "Youtube"
+msgstr ""
+
+#: tinymce/config.php:67
+msgid "Enter the youtube id (e.g EYuTt9JdcvY)"
+msgstr ""
+
+#: tinymce/config.php:72
+msgid "Insert Youtube Shortcode"
+msgstr ""
+
+#: tinymce/config.php:82 tinymce/config.php:540
+msgid "Vimeo"
+msgstr ""
+
+#: tinymce/config.php:83
+msgid "Enter the vimeo id (e.g 68596504)"
+msgstr ""
+
+#: tinymce/config.php:88
+msgid "Insert Vimeo Shortcode"
+msgstr ""
+
+#: tinymce/config.php:98
+msgid "mp3"
+msgstr ""
+
+#: tinymce/config.php:99
+msgid "Enter the mp3 link."
+msgstr ""
+
+#: tinymce/config.php:104
+msgid "ogg"
+msgstr ""
+
+#: tinymce/config.php:105
+msgid "Enter the ogg link."
+msgstr ""
+
+#: tinymce/config.php:110
+msgid "Insert Audio Shortcode"
+msgstr ""
+
+#: tinymce/config.php:121
+msgid "Enter the url."
+msgstr ""
+
+#: tinymce/config.php:126
+msgid "Comments"
+msgstr ""
+
+#: tinymce/config.php:127
+msgid "Display comments?"
+msgstr ""
+
+#: tinymce/config.php:136
+msgid "Auto Play"
+msgstr ""
+
+#: tinymce/config.php:147
+msgid "Enter the color code."
+msgstr ""
+
+#: tinymce/config.php:152
+msgid "Width"
+msgstr ""
+
+#: tinymce/config.php:153
+msgid "Enter the width."
+msgstr ""
+
+#: tinymce/config.php:158
+msgid "Height"
+msgstr ""
+
+#: tinymce/config.php:159
+msgid "Enter the height."
+msgstr ""
+
+#: tinymce/config.php:164
+msgid "Insert Souncloud Shortcode"
+msgstr ""
+
+#: tinymce/config.php:174
+msgid "Poster Image"
+msgstr ""
+
+#: tinymce/config.php:175
+msgid "Enter the url of the poster image."
+msgstr ""
+
+#: tinymce/config.php:180
+msgid "mp4"
+msgstr ""
+
+#: tinymce/config.php:181
+msgid "The URL to the .mp4 video file."
+msgstr ""
+
+#: tinymce/config.php:186
+msgid "ogv"
+msgstr ""
+
+#: tinymce/config.php:192
+msgid "webm"
+msgstr ""
+
+#: tinymce/config.php:198
+msgid "Insert Video Shortcode"
+msgstr ""
+
+#: tinymce/config.php:207
+msgid "Button URL"
+msgstr ""
+
+#: tinymce/config.php:208
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: tinymce/config.php:212
+msgid "Button's Style"
+msgstr ""
+
+#: tinymce/config.php:213
+msgid "Select the button's style, ie the buttons colour"
+msgstr ""
+
+#: tinymce/config.php:230
+msgid "Button's Size"
+msgstr ""
+
+#: tinymce/config.php:231
+msgid "Select the button's size"
+msgstr ""
+
+#: tinymce/config.php:241
+msgid "Button's Text"
+msgstr ""
+
+#: tinymce/config.php:242
+msgid "Add the button's text"
+msgstr ""
+
+#: tinymce/config.php:246
+msgid "Button's Target"
+msgstr ""
+
+#: tinymce/config.php:247
+msgid "Select the button's target"
+msgstr ""
+
+#: tinymce/config.php:256
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: tinymce/config.php:264
+msgid "Alert's Style"
+msgstr ""
+
+#: tinymce/config.php:265
+msgid "Select the slter's style, ie the alert colour"
+msgstr ""
+
+#: tinymce/config.php:277
+msgid "Alert's Text"
+msgstr ""
+
+#: tinymce/config.php:278
+msgid "Add the alert's text"
+msgstr ""
+
+#: tinymce/config.php:283
+msgid "Insert Alert Shortcode"
+msgstr ""
+
+#: tinymce/config.php:292
+msgid "Tooltip Link"
+msgstr ""
+
+#: tinymce/config.php:293 tinymce/config.php:299
+msgid "Enter the link for the tooltip."
+msgstr ""
+
+#: tinymce/config.php:298
+msgid "Tooltip Title"
+msgstr ""
+
+#: tinymce/config.php:304
+msgid "Tooltip Text"
+msgstr ""
+
+#: tinymce/config.php:305
+msgid "Add the text in the tooltip."
+msgstr ""
+
+#: tinymce/config.php:310
+msgid "Insert Tooltip Shortcode"
+msgstr ""
+
+#: tinymce/config.php:317
+msgid "Your text here!"
+msgstr ""
+
+#: tinymce/config.php:319
+msgid "Highlight Text"
+msgstr ""
+
+#: tinymce/config.php:320
+msgid "Enter the text to be highlighted."
+msgstr ""
+
+#: tinymce/config.php:325
+msgid "Insert Highlight Shortcode"
+msgstr ""
+
+#: tinymce/config.php:334
+msgid "Insert Toggle Content Shortcode"
+msgstr ""
+
+#: tinymce/config.php:339
+msgid "Toggle Content Title"
+msgstr ""
+
+#: tinymce/config.php:340
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: tinymce/config.php:346
+msgid "Toggle Content"
+msgstr ""
+
+#: tinymce/config.php:347
+msgid "Add the toggle content."
+msgstr ""
+
+#: tinymce/config.php:352
+msgid "+ Add Another Toggle"
+msgstr ""
+
+#: tinymce/config.php:361
+msgid "Insert accordion Content Shortcode"
+msgstr ""
+
+#: tinymce/config.php:366
+msgid "accordion Content Title"
+msgstr ""
+
+#: tinymce/config.php:367
+msgid "Add the title that will go above the accordion content"
+msgstr ""
+
+#: tinymce/config.php:373
+msgid "accordion Content"
+msgstr ""
+
+#: tinymce/config.php:374
+msgid "Add the accordion content."
+msgstr ""
+
+#: tinymce/config.php:379
+msgid "+ Add Another Accordion"
+msgstr ""
+
+#: tinymce/config.php:402
+msgid "Linkedin"
+msgstr ""
+
+#: tinymce/config.php:414
+msgid "Paypal"
+msgstr ""
+
+#: tinymce/config.php:420
+msgid "Delicious"
+msgstr ""
+
+#: tinymce/config.php:432
+msgid "Stumble Upon"
+msgstr ""
+
+#: tinymce/config.php:438
+msgid "Foursquare"
+msgstr ""
+
+#: tinymce/config.php:444
+msgid "Path"
+msgstr ""
+
+#: tinymce/config.php:450
+msgid "Dribbble"
+msgstr ""
+
+#: tinymce/config.php:462
+msgid "Flickr"
+msgstr ""
+
+#: tinymce/config.php:468
+msgid "Spotify"
+msgstr ""
+
+#: tinymce/config.php:474
+msgid "Instagram"
+msgstr ""
+
+#: tinymce/config.php:480
+msgid "Behance"
+msgstr ""
+
+#: tinymce/config.php:486
+msgid "Github"
+msgstr ""
+
+#: tinymce/config.php:492
+msgid "Fivehundredpx"
+msgstr ""
+
+#: tinymce/config.php:498
+msgid "Grooveshark"
+msgstr ""
+
+#: tinymce/config.php:504
+msgid "Forrst"
+msgstr ""
+
+#: tinymce/config.php:510
+msgid "Digg"
+msgstr ""
+
+#: tinymce/config.php:516
+msgid "Reddit"
+msgstr ""
+
+#: tinymce/config.php:522
+msgid "Rss"
+msgstr ""
+
+#: tinymce/config.php:528
+msgid "Skype"
+msgstr ""
+
+#: tinymce/config.php:546
+msgid "Myspace"
+msgstr ""
+
+#: tinymce/config.php:552
+msgid "Amazon"
+msgstr ""
+
+#: tinymce/config.php:558
+msgid "Ebay"
+msgstr ""
+
+#: tinymce/config.php:564
+msgid "Lastfm"
+msgstr ""
+
+#: tinymce/config.php:570
+msgid "Soundcloud"
+msgstr ""
+
+#: tinymce/config.php:576
+msgid "Posterous"
+msgstr ""
+
+#: tinymce/config.php:582
+msgid "Picasa"
+msgstr ""
+
+#: tinymce/config.php:588
+msgid "WordPress"
+msgstr ""
+
+#: tinymce/config.php:594
+msgid "Windows"
+msgstr ""
+
+#: tinymce/config.php:600
+msgid "Evernote"
+msgstr ""
+
+#: tinymce/config.php:606
+msgid "Insert Social Links Shortcode"
+msgstr ""
+
+#: tinymce/config.php:644
+msgid "Insert Tab Shortcode"
+msgstr ""
+
+#: tinymce/config.php:651
+msgid "Tab Title"
+msgstr ""
+
+#: tinymce/config.php:652
+msgid "Title of the tab"
+msgstr ""
+
+#: tinymce/config.php:657
+msgid "Tab Content"
+msgstr ""
+
+#: tinymce/config.php:658
+msgid "Add the tabs content"
+msgstr ""
+
+#: tinymce/config.php:662
+msgid "Add Tab"
+msgstr ""
+
+#: tinymce/config.php:672
+msgid "Filled color"
+msgstr ""
+
+#: tinymce/config.php:673
+msgid "Enter the filled color"
+msgstr ""
+
+#: tinymce/config.php:678
+msgid "Unfilled color"
+msgstr ""
+
+#: tinymce/config.php:679
+msgid "Enter the unfilled color"
+msgstr ""
+
+#: tinymce/config.php:685
+msgid "Enter the text"
+msgstr ""
+
+#: tinymce/config.php:690
+msgid "Value"
+msgstr ""
+
+#: tinymce/config.php:691
+msgid "Enter the value"
+msgstr ""
+
+#: tinymce/config.php:696
+msgid "Insert Progress Bar Shortcode"
+msgstr ""
+
+#: tinymce/config.php:705
+msgid "Insert Slider Shortcode"
+msgstr ""
+
+#: tinymce/config.php:711
+msgid "Slide Image"
+msgstr ""
+
+#: tinymce/config.php:712
+msgid "Enter the url of the image."
+msgstr ""
+
+#: tinymce/config.php:717
+msgid "+ Add New Slide"
+msgstr ""

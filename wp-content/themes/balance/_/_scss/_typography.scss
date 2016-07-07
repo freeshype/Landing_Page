@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic|Alegreya:400italic,400,700);
+@font-face {
+    font-family: 'tinktankcons';
+    src: url('_/_type/tinktankcons.woff') format('woff'),
+         url('_/_type/tinktankcons.ttf') format('truetype');
+}
+html {
+  font: normal 112.5%/1.5 serif;
+}
+body {
+  -webkit-hyphens: auto;
+  -moz-hyphens:    auto;
+  -ms-hyphens:     auto;
+  hyphens:         auto;
+  word-wrap: break-word;
+  font-family: 'Alegreya', Georgia, serif;
+  font-size: 20px;
+  color: $bodycolor;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-bottom: 0.4em;
+}
+h1, .h1 {
+  font-size: 2.4em;
+}
+h2, .h2 {
+  font-size: 2.2em;
+}
+h3, .h3 {
+  font-size: 2em;
+}
+h4, .h4 {
+  font-size: 1.8em;
+}
+h5, .h5, h6, .h6 {
+  font-size: 1.6em;
+}
+p {
+  margin-bottom: 1.6em;
+}
+p+h1, p+h2, p+h3, p+h4, p+h5, p+h6 {
+  margin-top: 1.6em;
+}
+a {
+  @include transition;
+  color: $sitecolor;
+  text-decoration: none;
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}
+
+ul, ol, ul ul, ul ol, ol ol, ol ul {
+  padding-left: 1.2em;
+  margin-bottom: 1em;
+}
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+blockquote {
+  padding: 1em;
+  background: rgba(0,0,0,0.05);
+  border-left: 10px solid $transBlack;
+  font-size: 0.95em;
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 2em;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+  cite {
+    display: inline-block;
+    float: right;
+    margin:1em 0 0;
+    font-style: normal;
+  }
+}
+[data-icon]::before {
+  position: relative;
+  content: attr(data-icon);
+  font-family: 'tinktankcons';
+  font-weight: 400 !important;
+  font-style: normal;
+  text-transform: none;
+  line-height: 0;
+}
+.btn, .wpcf7-submit, #submit {
+  width: auto !important;
+  background: $sitecolor;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.7em;
+}
+.fluid-width-video-wrapper {
+  background: $transBlack;
+}

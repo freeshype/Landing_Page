@@ -1,0 +1,11 @@
+@mixin bp($point) {
+  @if $point == L {
+    @media (max-width: 80em) { @content; }
+  }
+  @if $point == M {
+    @media (max-width: 60em) { @content; }
+  }
+  @if $point == S {
+    @media (max-width: 40em) { @content; }
+  }
+}
